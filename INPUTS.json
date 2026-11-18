@@ -1,0 +1,424 @@
+{
+  "inputs": [
+    {
+      "study": "astronomy",
+      "panels": [
+        "A9"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/analysis_outputs/photofusion_128_val_predictions.npz",
+      "sha256": "6f12d58643c1ec6fdd2d2a7e0951f872e418b6ed62519a59b4e165e2c5d5ddaa",
+      "bundled": true,
+      "bytes": 256456
+    },
+    {
+      "study": "astronomy",
+      "panels": [
+        "A9"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/analysis_outputs/photofusion_64_val_predictions.npz",
+      "sha256": "e24ae18ccb71e061a2436fa5d804eedf820ac934ea1568e5700e862fb447f49b",
+      "bundled": true,
+      "bytes": 256456
+    },
+    {
+      "study": "astronomy",
+      "panels": [
+        "A9"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/analysis_outputs/frozen_rn18_optimized_val_predictions.npz",
+      "sha256": "db32a36f5836d6faab181a50fe8cee3bacb7246e11ae99f054e98c3f9611fa3b",
+      "bundled": true,
+      "bytes": 256456
+    },
+    {
+      "study": "astronomy",
+      "panels": [
+        "A9"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/analysis_outputs/frozen_rn50_val_predictions.npz",
+      "sha256": "6fd4ac67dd9dbdeb99e330fa5e30eb5209444c77589d5869c87fb3bcda48c4dd",
+      "bundled": true,
+      "bytes": 304976
+    },
+    {
+      "study": "astronomy",
+      "panels": [
+        "A9"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/analysis_outputs/frozen_rn18_bighead_val_predictions.npz",
+      "sha256": "e550dc0c94650e9ec7c66b308a94683790bc213730a68f26ba8a07370f1351be",
+      "bundled": true,
+      "bytes": 256456
+    },
+    {
+      "study": "astronomy",
+      "panels": [
+        "A9"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/analysis_outputs/pf_hlr_swa_1e-03_ep1_2_predictions.npz",
+      "sha256": "07a6733eaf589561eed273677205d394e95fdd410e2a7b1a9c89d9ffa2b5039d",
+      "bundled": true,
+      "bytes": 256456
+    },
+    {
+      "study": "astronomy",
+      "panels": [
+        "A9"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/analysis_outputs/fulldata_val_predictions.npz",
+      "sha256": "4ebe730a1534378709e33a262a23a0ad3a146c98347d66698b4a7c2794f9b81a",
+      "bundled": true,
+      "bytes": 280983
+    },
+    {
+      "study": "astronomy",
+      "panels": [
+        "A9"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/analysis_outputs/prior_experiment_predictions.npz",
+      "sha256": "5f67b1ed6ef3400e5f039b04addf0a2a4e4aa38577e0b7f53588e0947f2010fb",
+      "bundled": true,
+      "bytes": 599995
+    },
+    {
+      "study": "astronomy",
+      "panels": [
+        "A9"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/analysis_outputs/pf_lr_sweep_best_predictions.npz",
+      "sha256": "0d76d032b33b93d774f29b2a215ec99cc72fab1f282af201d8dfc979337a3b41",
+      "bundled": true,
+      "bytes": 353740
+    },
+    {
+      "study": "astronomy",
+      "panels": [
+        "A9"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/analysis_outputs/pf_hlr_swa_1e-03_ep1_3_predictions.npz",
+      "sha256": "0ac02fa8c53210d5c2e840e8c077894c577b0f5397de8b05591cdd05b651e256",
+      "bundled": true,
+      "bytes": 256456
+    },
+    {
+      "study": "astronomy",
+      "panels": [
+        "A12"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/analysis_outputs/v3_binned_val_predictions.npz",
+      "sha256": "0922294680f444148092fd58204673881da3b5acbda616fe49ba056edae25061",
+      "required_keys": [
+        "bin_probs",
+        "bin_centers",
+        "z_true",
+        "mag_r",
+        "mag_g",
+        "is_dwarf"
+      ],
+      "bundled": true,
+      "bytes": 5170266
+    },
+    {
+      "study": "economics",
+      "panels": [
+        "E1"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/downloads/pums_housing_2023/psam_h06.csv",
+      "sha256": "59f592ae17c8d118c0ce49d019ef8e6cafc739954bea35a265aaf42d33635828",
+      "bytes": 100309342,
+      "upstream_public_archive_url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_hca.zip",
+      "bundled": false,
+      "source_accessed": "2026-02-27",
+      "source_organization": "U.S. Census Bureau",
+      "source_product": "American Community Survey 1-Year Public Use Microdata Sample (PUMS), Housing Unit Records"
+    },
+    {
+      "study": "economics",
+      "panels": [
+        "E1",
+        "E6"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/downloads/pums_housing_2023/psam_h12.csv",
+      "sha256": "17c99f13a6c28e69cd893cd8b1fc12bdcf74f66812075b999ec92a92cc102809",
+      "bytes": 65258705,
+      "upstream_public_archive_url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_hfl.zip",
+      "bundled": false,
+      "source_accessed": "2026-02-27",
+      "source_organization": "U.S. Census Bureau",
+      "source_product": "American Community Survey 1-Year Public Use Microdata Sample (PUMS), Housing Unit Records"
+    },
+    {
+      "study": "economics",
+      "panels": [
+        "E1"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/downloads/pums_housing_2023/psam_h22.csv",
+      "sha256": "bbf783c1294c0c1b0b1cdddff01121b03ed46587846e5cb16a6d3cae37176daf",
+      "bytes": 14012378,
+      "upstream_public_archive_url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_hla.zip",
+      "bundled": false,
+      "source_accessed": "2026-02-27",
+      "source_organization": "U.S. Census Bureau",
+      "source_product": "American Community Survey 1-Year Public Use Microdata Sample (PUMS), Housing Unit Records"
+    },
+    {
+      "study": "economics",
+      "panels": [
+        "E1"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/downloads/pums_housing_2023/psam_h27.csv",
+      "sha256": "ff2a306d5034c2365cc477cd8176889471710ab0290404252fa4c5b92a3c129f",
+      "bytes": 17195316,
+      "upstream_public_archive_url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_hmn.zip",
+      "bundled": false,
+      "source_accessed": "2026-02-27",
+      "source_organization": "U.S. Census Bureau",
+      "source_product": "American Community Survey 1-Year Public Use Microdata Sample (PUMS), Housing Unit Records"
+    },
+    {
+      "study": "economics",
+      "panels": [
+        "E1"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/downloads/pums_housing_2023/psam_h39.csv",
+      "sha256": "e9be6bb3135656d522218c1be351801ed19fb2f75168e1b4a097c5684a4b8536",
+      "bytes": 35555640,
+      "upstream_public_archive_url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_hoh.zip",
+      "bundled": false,
+      "source_accessed": "2026-02-27",
+      "source_organization": "U.S. Census Bureau",
+      "source_product": "American Community Survey 1-Year Public Use Microdata Sample (PUMS), Housing Unit Records"
+    },
+    {
+      "study": "economics",
+      "panels": [
+        "E1"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/downloads/pums_housing_2023/psam_h48.csv",
+      "sha256": "7edfefabea7bfc732756485fab56f37f2c72bfcf365801df9f28cb2cd88d268a",
+      "bytes": 81752058,
+      "upstream_public_archive_url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_htx.zip",
+      "bundled": false,
+      "source_accessed": "2026-02-27",
+      "source_organization": "U.S. Census Bureau",
+      "source_product": "American Community Survey 1-Year Public Use Microdata Sample (PUMS), Housing Unit Records"
+    },
+    {
+      "study": "economics",
+      "panels": [
+        "E6"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/downloads/pums_housing_2018/psam_h12.csv",
+      "sha256": "d0b7737671dfa5b671e8ec94be892d06de666bcab2f21a27a5c9da703101d8b3",
+      "bytes": 60934967,
+      "upstream_public_archive_url": "https://www2.census.gov/programs-surveys/acs/data/pums/2018/1-Year/csv_hfl.zip",
+      "bundled": false,
+      "source_accessed": "2026-02-27",
+      "source_organization": "U.S. Census Bureau",
+      "source_product": "American Community Survey 1-Year Public Use Microdata Sample (PUMS), Housing Unit Records"
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G5",
+        "G7",
+        "G9",
+        "G12"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/GWCD4i.DE_stats.h5ad",
+      "bundled": false,
+      "upstream_dataset_url": "https://virtualcellmodels.cziscience.com/dataset/genome-scale-tcell-perturb-seq",
+      "upstream_artifact": "Differential Expression Results / GWCD4i.DE_stats.h5ad",
+      "dataset_version": "v1.0 (released 2025-12-22; public file replaced 2026-05-28)",
+      "content_sha256": "9fc77963d75d9c6cb9b0bef21e7157a00bcbfc539c374eb18597bf7875dccd96",
+      "content_hash_note": "Computed by tools/download_genomics.py content_digest over layers, obs, var and varm; the HDF5 bytes vary with the writing library.",
+      "v1_metadata": "data/GWCD4i.DE_stats.v1.0_metadata.h5ad",
+      "v1_metadata_sha256": "8900423d54a6edd891822da290e8351419f16028f57f68e1da65d72426da3921",
+      "public_release": {
+        "url": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/GWCD4i.DE_stats.h5ad",
+        "filename": "GWCD4i.DE_stats.public_2026-05-28.h5ad",
+        "last_modified": "2026-05-28T23:43:31Z",
+        "s3_version_id": "IJHj.CZ2Hhw9sa41IuovIGpBZimEZo7I",
+        "sha256": "c355f535ff32cf7ba1edc49cf9c6039fe84f2c9ebe4d005515cba75790cfbb62",
+        "bytes": 16786240107
+      }
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G5",
+        "G7",
+        "G9",
+        "G12"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/GWCD4i.DE_stats.v1.0_metadata.h5ad",
+      "sha256": "8900423d54a6edd891822da290e8351419f16028f57f68e1da65d72426da3921",
+      "bytes": 7053504,
+      "bundled": true,
+      "source": "obs, var and varm of the v1.0 GWCD4i.DE_stats.h5ad (Zhu, Dann et al.; MIT License)"
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G5"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/gene_topology.csv",
+      "sha256": "6fb94d4059843bc004137076a98a1014715b28b81d4dcd791c9c7e334bb3dd2f",
+      "bytes": 360013,
+      "bundled": true
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G5"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/downloads/autoimmune_l2g_predictions.csv",
+      "sha256": "68668e8e4da46e7bc67e80a6eff269421ba21e1d1162589f2a1e68ee055166eb",
+      "bytes": 167234,
+      "bundled": true
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G5"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/processed/gene_topology_with_gwas.csv",
+      "sha256": "138921ef39597ea579d8cbc3cfca79fa4db0a2e06402ee4534a429203a9dfb69",
+      "bytes": 929868,
+      "bundled": true
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G7"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/downloads/autoimmune_l2g_predictions_score_gt_0.5.csv",
+      "sha256": "0587a6022d6a33d7c24129402de3ddfce0ed13160f4e5488664d95ed35f568a7",
+      "bytes": 189115,
+      "bundled": true
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G7"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/processed/stim8hr_feedback_topology_gwas.csv",
+      "sha256": "655083359b866ea631e09fa0656fc437810652618a12920e4026f05f5755eccf",
+      "bytes": 337526,
+      "bundled": true
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G7"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/processed/perturbation_summary.csv",
+      "sha256": "ef33a498f6dad50c2fb464cdbfcd558c0a17b5ac48f7efb07ac38068c20ede7b",
+      "bytes": 4820370,
+      "bundled": true
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G9"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/external/s_het_estimates.genebayes.tsv",
+      "sha256": "126eaddf506e80a6a5a966e0641a70311564d7c4cb92f1d3560abc36079f1e37",
+      "bytes": 1580606,
+      "bundled": true
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G9"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/external/gnomad_constraint.tsv",
+      "sha256": "68d8abdb7fc48f570869b02dfaa74b9fecaece7fcc5f301ddca40ec1ce12da00",
+      "bytes": 95546041,
+      "bundled": true
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G9"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/processed/merged_constraint_network.csv",
+      "sha256": "554fc2149100e5fdfde0a180af72b148b273f7fc2398a490217a930a1f335582",
+      "bytes": 3247365,
+      "bundled": true
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G9"
+      ],
+      "phase": "analysis",
+      "relative_path": "data/downloads/autoimmune_l2g_unique_genes.csv",
+      "sha256": "d2e2a8d1ce98c9551a307de6701b5e353b785577c5d0a9033bc6206d08f70754",
+      "bytes": 7640,
+      "bundled": true
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G9"
+      ],
+      "phase": "analysis",
+      "relative_path": "reports/analysis_outputs/stim8hr_constraint_annotated.csv",
+      "sha256": "28c6c03a1cd9470b43834a5f11d5ab827f6c8a991779bf5d5439d8ae8980fcb9",
+      "bytes": 1595749,
+      "bundled": true
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G12"
+      ],
+      "phase": "analysis",
+      "relative_path": "results/gene_topology_classification_stim8hr.csv",
+      "sha256": "7e797d60f95b85e52faaf544d1c3e7d4796e13d51395b7dea205b04a7a05d45b",
+      "bytes": 284692,
+      "bundled": true
+    },
+    {
+      "study": "genomics",
+      "panels": [
+        "G12"
+      ],
+      "phase": "analysis",
+      "relative_path": "results/opentargets_druggability.csv",
+      "sha256": "e982c8dfca48e7cba39207d836ce026bfddbdea8cf9d229ded8b842c58d3cac7",
+      "bytes": 2713716,
+      "bundled": true
+    }
+  ]
+}

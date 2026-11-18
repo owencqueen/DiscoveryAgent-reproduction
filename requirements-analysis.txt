@@ -1,0 +1,5 @@
+-r requirements-render.txt
+scipy
+statsmodels
+anndata>=0.12
+scanpy

@@ -1,0 +1,52 @@
+{
+  "A6": {
+    "study": "astronomy",
+    "figure": "4c",
+    "round": "6"
+  },
+  "A9": {
+    "study": "astronomy",
+    "figure": "4d",
+    "round": "9"
+  },
+  "A12": {
+    "study": "astronomy",
+    "figure": "4e",
+    "round": "12"
+  },
+  "A14": {
+    "study": "astronomy",
+    "figure": "4f",
+    "round": "14"
+  },
+  "E1": {
+    "study": "economics",
+    "figure": "5c",
+    "round": "1"
+  },
+  "E6": {
+    "study": "economics",
+    "figure": "5d",
+    "round": "6"
+  },
+  "G5": {
+    "study": "genomics",
+    "figure": "6c",
+    "round": "5"
+  },
+  "G7": {
+    "study": "genomics",
+    "figure": "6d",
+    "round": "7"
+  },
+  "G9": {
+    "study": "genomics",
+    "figure": "6e",
+    "round": "9"
+  },
+  "G12": {
+    "study": "genomics",
+    "figure": "6f",
+    "round": "12"
+  }
+}
