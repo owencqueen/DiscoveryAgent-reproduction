@@ -1,6 +1,6 @@
 # DiscoveryAgent reproduction
 
-Code and inputs for Figures **4c–f, 5c–d and 6c–f** of the DiscoveryAgent paper.
+Code and inputs for Figures **4c–f, 5c–d and 6c–f** of the [DiscoveryAgent paper](https://arxiv.org/abs/2611.21950).
 The scripts compute case-study statistics and render the corresponding panels.
 
 | Panel | ID | Analysis |
